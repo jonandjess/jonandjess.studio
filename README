@@ -1,0 +1,5 @@
+hosted on DO at /var/www/jonandjess/html
+
+scp -r out/* <server>:/var/www/jonandjess/html
+
+nginx config at /etc/nginx/sites-available/jonandjess
