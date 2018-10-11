@@ -9,7 +9,9 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "export": "next export"
+    "export": "next export",
+    "upload": "scp -r out/* root@174.138.4.110:/var/www/jonandjess/html",
+    "deploy": "yarn build && yarn export && yarn upload"
   },
   "dependencies": {
     "next": "^7.0.1",

@@ -21,7 +21,7 @@ export default () => {
         display: inline-block;
         border: 2px solid black;
         border-radius: 8px;
-        padding: 5px 25px 3px;
+        padding: 8px 25px;
         text-decoration: none;
         text-transform: uppercase;
         font-weight: 700;
