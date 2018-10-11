@@ -1,7 +1,11 @@
 import React, { Fragment } from 'react'
+import Head from 'next/head'
 
 export default () => {
   return (<Fragment>
+    <Head>
+      <link rel="shortcut icon" type="image/png" href="/static/favicon.png"/>
+    </Head>
     <div className='index'>
       <a href='mailto:hello@jonandjess.studio'>say hey!</a>
       <img src='/static/logotype.svg' />
@@ -48,7 +52,7 @@ export default () => {
       h1 {
         text-align: center;
       }
-
+      /*
       span.jon {
         color: #00599A;
         font-weight: 700;
@@ -57,7 +61,7 @@ export default () => {
       span.jess {
         color: #F05E22;
         font-weight: 700;
-      }
+      }*/
     `}</style>
 
     <style global jsx>{`
