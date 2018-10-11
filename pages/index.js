@@ -5,7 +5,7 @@ export default () => {
     <div className='index'>
       <a href='mailto:hello@jonandjess.studio'>say hey!</a>
       <img src='/static/logotype.svg' />
-      <h1>We are a creative and engineering studio led by Jon and Jess.</h1>
+      <h1>We are a creative and engineering studio led by <span className='jon'>Jon</span> and <span className='jess'>Jess</span>.</h1>
     </div>
 
     <style jsx>{`
@@ -47,6 +47,16 @@ export default () => {
 
       h1 {
         text-align: center;
+      }
+
+      span.jon {
+        color: #00599A;
+        font-weight: 700;
+      }
+
+      span.jess {
+        color: #F05E22;
+        font-weight: 700;
       }
     `}</style>
 
